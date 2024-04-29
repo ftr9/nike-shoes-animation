@@ -1,0 +1,30 @@
+.productDescription_CTA {
+  display: flex;
+  align-items: center;
+}
+
+.productDescription h1 {
+  font-weight: 800;
+  font-size: 36px;
+}
+
+.productDescription_txt {
+  margin-top: 15px;
+  margin-bottom: 12px;
+}
+
+.productDescription_CTA p {
+  margin-right: 10px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+@media (max-width: 500px) {
+  .productDescription_txt {
+    margin-top: 10px;
+    margin-bottom: 8px;
+  }
+  .productDescription h1 {
+    font-size: 30px;
+  }
+}

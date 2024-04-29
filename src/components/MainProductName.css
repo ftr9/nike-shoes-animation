@@ -1,0 +1,20 @@
+.mainProductName {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  font-style: italic;
+  font-size: 25vw;
+  font-weight: 900;
+  letter-spacing: 5rem;
+  pointer-events: none;
+  text-align: center;
+}
+
+@media (max-width: 750px) {
+  .mainProductName {
+    letter-spacing: 2rem;
+    font-size: 30vw;
+  }
+}

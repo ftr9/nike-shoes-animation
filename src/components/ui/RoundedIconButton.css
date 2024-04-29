@@ -1,0 +1,20 @@
+.roundedIconButton {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.1px solid black;
+  font-size: 24px;
+  cursor: pointer;
+  position: relative;
+}
+
+@media (max-width: 500px) {
+  .roundedIconButton {
+    height: 40px;
+    width: 40px;
+    font-size: 18px;
+  }
+}
